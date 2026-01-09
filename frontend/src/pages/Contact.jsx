@@ -15,7 +15,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="mt-6 text-xl text-amber-100 max-w-3xl mx-auto leading-relaxed">
-            Reach out to Vastu Engineers & Designers for expert consultations,
+            Reach out to The VEDS for expert consultations,
             project inquiries, professional training, or strategic collaborations.
           </p>
         </div>
@@ -38,6 +38,12 @@ const Contact = () => {
             >
               +91 96066 01604
             </a>
+            <a
+              href="tel:9535925954"
+              className="mt-2 block text-xl text-gray-800 font-semibold hover:text-amber-600 transition-colors text-center"
+            >
+              +91 95359 25954
+            </a>
             <p className="mt-4 text-gray-500 text-center text-sm">
               Available Mon-Sat, 9AM-7PM
             </p>
@@ -52,10 +58,10 @@ const Contact = () => {
               Email Address
             </h3>
             <a
-              href="mailto:Thevedsgroup@gmail.com"
+              href="mailto:thevedsgroup@gmail.com"
               className="mt-4 block text-lg text-gray-800 font-medium hover:text-green-600 transition-colors text-center break-words"
             >
-              Thevedsgroup@gmail.com
+              thevedsgroup@gmail.com
             </a>
             <p className="mt-4 text-gray-500 text-center text-sm">
               Response within 24 hours
@@ -75,6 +81,9 @@ const Contact = () => {
               <p>Kurudusonnenahalli Road,</p>
               <p>Kodigehalli,</p>
               <p>Bangalore – 560067</p>
+              <p className="pt-3 border-t border-gray-200 mt-3"></p>
+              <p className="pt-2 font-semibold">Shop 15, Jhansi field complex</p>
+              <p>Chintamani, 562125</p>
             </div>
           </div>
         </div>
@@ -115,15 +124,24 @@ const Contact = () => {
                 For urgent inquiries or immediate assistance, please call us directly.
                 Our team is ready to help with your vastu requirements.
               </p>
-              <a
-                href="tel:9606601604"
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-600 to-amber-700 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all hover:scale-[1.02]"
-              >
-                <Phone className="w-5 h-5" />
-                Call Now
-              </a>
+              <div className="space-y-3">
+                <a
+                  href="tel:9606601604"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-600 to-amber-700 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all hover:scale-[1.02] w-full justify-center"
+                >
+                  <Phone className="w-5 h-5" />
+                  96066 01604
+                </a>
+                <a
+                  href="tel:9535925954"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-600 to-amber-700 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all hover:scale-[1.02] w-full justify-center"
+                >
+                  <Phone className="w-5 h-5" />
+                  95359 25954
+                </a>
+              </div>
             </div>
-          </div>
+          </div> 
 
           {/* Maps Section */}
           <div className="lg:col-span-2">
@@ -141,7 +159,7 @@ const Contact = () => {
               <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
                 <div className="bg-gradient-to-r from-gray-900 to-black p-6">
                   <h3 className="text-xl font-semibold text-white">
-                    Main Office - Kodigehalli
+                    Main Office - Chintamani
                   </h3>
                 </div>
                 <iframe
@@ -156,7 +174,7 @@ const Contact = () => {
               <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
                 <div className="bg-gradient-to-r from-gray-900 to-black p-6">
                   <h3 className="text-xl font-semibold text-white">
-                    Branch Office - Bangalore
+                    Main Office - Bangalore
                   </h3>
                 </div>
                 <iframe
@@ -181,15 +199,36 @@ const Contact = () => {
             Contact us today for a free consultation and let our expert vastu
             engineers help you create harmonious and prosperous environments.
           </p>
+          <div className="mb-6 text-gray-700">
+            <p className="font-semibold mb-2">Our Offices:</p>
+            <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+              <div className="bg-white rounded-lg p-3">
+                <p className="font-semibold text-amber-700">Bangalore</p>
+                <p className="text-sm">NO.1/1 Varadharajanna Building,</p>
+                <p className="text-sm">Kodigehalli, Bangalore – 560067</p>
+              </div>
+              <div className="bg-white rounded-lg p-3">
+                <p className="font-semibold text-amber-700">Chintamani</p>
+                <p className="text-sm">Shop 15, Jhansi field complex</p>
+                <p className="text-sm">Chintamani, 562125</p>
+              </div>
+            </div>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:9606601604"
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:shadow-xl"
             >
-              Schedule a Call
+              Schedule a Call - 96066 01604
             </a>
             <a
-              href="mailto:Thevedsgroup@gmail.com"
+              href="tel:9535925954"
+              className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:shadow-xl"
+            >
+              Schedule a Call - 95359 25954
+            </a>
+            <a
+              href="mailto:thevedsgroup@gmail.com"
               className="bg-white hover:bg-gray-50 text-amber-600 border-2 border-amber-600 px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:shadow-xl"
             >
               Send Email

@@ -12,7 +12,7 @@ const About = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 to-amber-900/70">
           <div className="max-w-6xl mx-auto px-4 h-full flex flex-col justify-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Vastu Engineers & Designers
+              The VEDS
             </h1>
             <p className="text-xl text-gray-200 max-w-2xl">
               Blending Ancient Vastu Wisdom with Modern Engineering Excellence Since 1995
@@ -33,7 +33,7 @@ const About = () => {
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
                   Established in 1995 by visionary founder <span className="font-semibold text-amber-700">Nagabhushana G V</span>, 
-                  Vastu Engineers & Designers stands as a beacon of enduring excellence 
+                  The VEDS stands as a beacon of enduring excellence 
                   in engineering and architectural innovation.
                 </p>
                 <p>
@@ -180,7 +180,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Our Engineering Philosophy</h2>
             <p className="text-xl text-amber-100 leading-relaxed">
-              "At Vastu Engineers & Designers, we believe that true architectural 
+              "At The VEDS, we believe that true architectural 
               excellence lies in the perfect harmony between ancient wisdom and 
               modern innovation. Every structure we design is not just built—it's 
               thoughtfully created to enhance lives, respect nature, and stand as 

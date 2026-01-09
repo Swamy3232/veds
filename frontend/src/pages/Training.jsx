@@ -18,7 +18,7 @@ const Training = () => {
           </p>
           <div className="flex items-center space-x-4 mt-8">
             <a
-              href="mailto:Thevedsgroup@gmail.com"
+              href="mailto:thevedsgroup@gmail.com"
               className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
             >
               Apply Now
@@ -145,10 +145,10 @@ const Training = () => {
               <div>
                 <p className="font-semibold">Email</p>
                 <a
-                  href="mailto:Thevedsgroup@gmail.com"
+                  href="mailto:thevedsgroup@gmail.com"
                   className="text-amber-100 hover:text-white transition duration-300"
                 >
-                  Thevedsgroup@gmail.com
+                  thevedsgroup@gmail.com
                 </a>
               </div>
             </div>
@@ -163,6 +163,12 @@ const Training = () => {
                   className="text-amber-100 hover:text-white transition duration-300"
                 >
                   +91 96066 01604
+                </a>
+                <a
+                  href="tel:9535925954"
+                  className="text-amber-100 hover:text-white transition duration-300 block"
+                >
+                  +91 95359 25954
                 </a>
               </div>
             </div>
@@ -179,10 +185,23 @@ const Training = () => {
               </div>
               <div>
                 <p className="text-gray-700 leading-relaxed">
+                  <span className="font-semibold">Main Office - Bangalore:</span><br />
                   NO.1/1 Varadharajanna Building,<br />
                   Kurudusonnenahalli Road,<br />
                   Kodigehalli,<br />
                   Bangalore – 560067.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start">
+              <div className="bg-amber-100 p-3 rounded-lg mr-4">
+                <span className="text-xl text-amber-600">📍</span>
+              </div>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  <span className="font-semibold">Branch Office - Chintamani:</span><br />
+                  Shop 15, Jhansi field complex<br />
+                  Chintamani, 562125
                 </p>
               </div>
             </div>
@@ -206,7 +225,7 @@ const Training = () => {
           Join our training program and gain the practical skills needed for a successful career in civil engineering.
         </p>
         <a
-          href="mailto:Thevedsgroup@gmail.com"
+          href="mailto:thevedsgroup@gmail.com"
           className="inline-block bg-white text-amber-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300"
         >
           Send Your Resume

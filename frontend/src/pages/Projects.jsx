@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Building, Calendar, MapPin, Clock, Image as ImageIcon } from "lucide-react";
-
+import { Link } from "react-router-dom";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -280,9 +280,12 @@ const Projects = () => {
                   Let's discuss how we can bring your architectural vision to life with our 
                   expertise in Vastu-compliant design and modern engineering.
                 </p>
-                <button className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-8 py-3 rounded-full font-bold transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Start Your Project
-                </button>
+                <Link
+  to="/quote"
+  className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-8 py-3 rounded-full font-bold transition-all duration-300 shadow-lg hover:shadow-xl inline-block text-center"
+>
+  Start Your Project
+</Link>
               </div>
             </div>
           </div>

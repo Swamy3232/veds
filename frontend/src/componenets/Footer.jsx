@@ -15,12 +15,12 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <img 
                 src={logo} 
-                alt="Vastu Engineers & Designers" 
+                alt="The VEDS" 
                 className="h-16 w-auto object-contain"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Established in 1995, Vastu Engineers & Designers blends
+              Established in 1995, The VEDS blends
               timeless Vastu wisdom with modern engineering excellence to
               create harmonious, sustainable spaces.
             </p>
@@ -90,27 +90,39 @@ const Footer = () => {
               <li className="flex items-start">
                 <FaPhone className="text-amber-400 mt-1 mr-3 flex-shrink-0" />
                 <div>
-                  <a href="tel:9606601604" className="hover:text-amber-400 transition-colors text-sm block">
-                    9606601604
-                  </a>
-                  <p className="text-xs text-gray-400">Mon-Sat: 9AM-6PM</p>
+                  <div className="space-y-1">
+                    <a href="tel:9606601604" className="hover:text-amber-400 transition-colors text-sm block">
+                      +91 96066 01604
+                    </a>
+                    <a href="tel:9535925954" className="hover:text-amber-400 transition-colors text-sm block">
+                      +91 95359 25954
+                    </a>
+                  </div>
+                  <p className="text-xs text-gray-400 mt-1">Mon-Sat: 9AM-6PM</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <FaEnvelope className="text-amber-400 mt-1 mr-3 flex-shrink-0" />
                 <a 
-                  href="mailto:Thevedsgroup@gmail.com" 
+                  href="mailto:thevedsgroup@gmail.com" 
                   className="hover:text-amber-400 transition-colors text-sm break-all"
                 >
-                  Thevedsgroup@gmail.com
+                  thevedsgroup@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-amber-400 mt-1 mr-3 flex-shrink-0" />
                 <address className="text-sm not-italic">
-                  NO.1/1 Varadharajanna Building,<br />
-                  Kurudusonnenahalli Road,<br />
-                  Kodigehalli, Bangalore – 560067
+                  <div className="mb-2">
+                    <p className="font-semibold text-amber-400">Bangalore:</p>
+                    NO.1/1 Varadharajanna Building,<br />
+                    Kodigehalli, Bangalore – 560067
+                  </div>
+                  <div>
+                    <p className="font-semibold text-amber-400">Chintamani:</p>
+                    Shop 15, Jhansi field complex,<br />
+                    Chintamani, 562125
+                  </div>
                 </address>
               </li>
             </ul>
@@ -142,7 +154,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Vastu Engineers & Designers. All Rights Reserved.
+              © {new Date().getFullYear()} The VEDS. All Rights Reserved.
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
               <a href="/privacy" className="hover:text-white transition-colors">
