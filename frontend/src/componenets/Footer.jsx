@@ -114,9 +114,9 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-amber-400 mt-1 mr-3 flex-shrink-0" />
                 <address className="text-sm not-italic">
                   <div className="mb-2">
-                    <p className="font-semibold text-amber-400">Bangalore:</p>
+                    <p className="font-semibold text-amber-400">Bengaluru:</p>
                     NO.1/1 Varadharajanna Building,<br />
-                    Kodigehalli, Bangalore – 560067
+                    Kodigehalli, Bengaluru – 560067
                   </div>
                   <div>
                     <p className="font-semibold text-amber-400">Chintamani:</p>

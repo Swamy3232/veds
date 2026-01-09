@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/image/Logo.jpeg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +39,7 @@ const Navbar = () => {
             <div className="relative">
               <div className="absolute -inset-2 bg-amber-100 rounded-full blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <img
-                src={logo}
+                src="/Logobg.png"
                 alt="VEDS Civil Engineering"
                 className="h-20 w-auto object-contain relative z-10"
               />

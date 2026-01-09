@@ -185,11 +185,11 @@ const Training = () => {
               </div>
               <div>
                 <p className="text-gray-700 leading-relaxed">
-                  <span className="font-semibold">Main Office - Bangalore:</span><br />
+                  <span className="font-semibold">Main Office - Bengaluru:</span><br />
                   NO.1/1 Varadharajanna Building,<br />
                   Kurudusonnenahalli Road,<br />
                   Kodigehalli,<br />
-                  Bangalore – 560067.
+                  Bengaluru – 560067.
                 </p>
               </div>
             </div>

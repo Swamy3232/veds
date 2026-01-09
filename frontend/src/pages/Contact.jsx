@@ -80,7 +80,7 @@ const Contact = () => {
               <p>NO.1/1 Varadharajanna Building,</p>
               <p>Kurudusonnenahalli Road,</p>
               <p>Kodigehalli,</p>
-              <p>Bangalore – 560067</p>
+              <p>Bengaluru – 560067</p>
               <p className="pt-3 border-t border-gray-200 mt-3"></p>
               <p className="pt-2 font-semibold">Shop 15, Jhansi field complex</p>
               <p>Chintamani, 562125</p>
@@ -150,7 +150,7 @@ const Contact = () => {
                 Our Locations
               </h2>
               <p className="text-gray-600 text-lg">
-                Visit us at our strategically located offices across Bangalore
+                Visit us at our strategically located offices across Bengaluru
               </p>
             </div>
 
@@ -174,11 +174,11 @@ const Contact = () => {
               <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
                 <div className="bg-gradient-to-r from-gray-900 to-black p-6">
                   <h3 className="text-xl font-semibold text-white">
-                    Main Office - Bangalore
+                    Main Office - Bengaluru
                   </h3>
                 </div>
                 <iframe
-                  title="Bangalore Office Location"
+                  title="Bengaluru Office Location"
                   src="https://maps.google.com/maps?q=13.005532264709473,77.72750091552734&z=17&hl=en&output=embed"
                   className="w-full h-80 border-0"
                   loading="lazy"
@@ -203,9 +203,9 @@ const Contact = () => {
             <p className="font-semibold mb-2">Our Offices:</p>
             <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
               <div className="bg-white rounded-lg p-3">
-                <p className="font-semibold text-amber-700">Bangalore</p>
+                <p className="font-semibold text-amber-700">Bengaluru</p>
                 <p className="text-sm">NO.1/1 Varadharajanna Building,</p>
-                <p className="text-sm">Kodigehalli, Bangalore – 560067</p>
+                <p className="text-sm">Kodigehalli, Bengaluru – 560067</p>
               </div>
               <div className="bg-white rounded-lg p-3">
                 <p className="font-semibold text-amber-700">Chintamani</p>

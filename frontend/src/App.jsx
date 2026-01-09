@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./componenets/nav.jsx";
 import Footer from "./componenets/Footer.jsx";
 
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import About from "./pages/About.jsx";
 import Projects from "./pages/Projects.jsx";
 import Training from "./pages/Training.jsx";
