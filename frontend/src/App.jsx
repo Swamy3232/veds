@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+jiimport { Routes, Route } from "react-router-dom";
 import Navbar from "./componenets/nav.jsx";
 import Footer from "./componenets/Footer.jsx";
 
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default ;
