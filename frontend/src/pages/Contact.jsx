@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, MessageSquare, Clock, Globe } from "lucide-react";
 const Contact = () => {
   return (
     <div className="bg-gradient-to-br from-gray-50 to-white min-h-screen">
-      {/* Header with decorative element */}
+     
       <div className="relative bg-gradient-to-r from-amber-900 to-indigo-800 py-20 overflow-hidden">
         <div className="absolute inset-0 bg-grid-white/[0.02]"></div>
         <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
@@ -21,10 +21,10 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Contact Cards with improved design */}
+     
       <div className="max-w-7xl mx-auto px-6 -mt-12 relative z-20">
         <div className="grid gap-8 md:grid-cols-3">
-          {/* Phone Card */}
+     
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
             <div className="bg-gradient-to-br from-amber-500 to-amber-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 mx-auto">
               <Phone className="text-white w-7 h-7" />

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/image/Logo.jpeg";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-// import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 
 
 const Footer = () => {
@@ -129,27 +129,10 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Subscription */}
-        {/* <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="max-w-md mx-auto">
-            <h4 className="text-center text-lg font-semibold mb-4">
-              Subscribe to Our Newsletter
-            </h4>
-            <div className="flex flex-col sm:flex-row gap-2">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-grow px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 outline-none transition-colors text-white"
-              />
-              <button className="bg-amber-500 hover:bg-amber-600 text-white font-medium px-6 py-3 rounded-lg transition-colors whitespace-nowrap">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div> */}
+      
       </div>
 
-      {/* Bottom Bar */}
+      
       <div className="bg-gray-950 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-4 md:space-y-0">

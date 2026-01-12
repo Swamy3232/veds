@@ -16,24 +16,34 @@ const GetQuote = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    alert("Thank you for your inquiry! Our team will contact you within 24 hours.");
-    setForm({
-      name: "",
-      phone: "",
-      email: "",
-      projectType: "",
-      location: "",
-      message: "",
-    });
-    setIsSubmitting(false);
-  };
+  const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const subject = encodeURIComponent("New Project Quote Request");
+  const body = encodeURIComponent(
+    `Name: ${form.name}
+Phone: ${form.phone}
+Email: ${form.email}
+Project Type: ${form.projectType}
+Location: ${form.location}
+
+Project Requirements:
+${form.message}
+`
+  );
+
+  window.location.href = `mailto:swamygowda5455@mail.com?subject=${subject}&body=${body}`;
+
+  setForm({
+    name: "",
+    phone: "",
+    email: "",
+    projectType: "",
+    location: "",
+    message: "",
+  });
+};
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
