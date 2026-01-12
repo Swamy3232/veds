@@ -32,7 +32,7 @@ ${form.message}
 `
   );
 
-  window.location.href = `mailto:swamygowda5455@mail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:thevedsgroup@gmail.com?subject=${subject}&body=${body}`;
 
   setForm({
     name: "",

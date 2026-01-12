@@ -146,7 +146,7 @@ const Navbar = () => {
             ))}
             <div className="pt-4 border-t border-amber-100">
               <Link
-                to="/contact"
+                to="/quote"
                 onClick={() => setIsOpen(false)}
                 className="block text-center bg-gradient-to-r from-amber-600 to-amber-700 text-white py-3.5 rounded-lg font-bold hover:shadow-lg hover:shadow-amber-200 transition-all duration-300"
               >
